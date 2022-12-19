@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 function App() {
   const [searchResults,setSearchResults]= useState('Rosario')
   console.log(searchResults)
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_WEATHER_KEY}&q=${searchResults}&days=3&aqi=no&alerts=no`
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_WEATHER_KEY}&q=${searchResults}&days=3&aqi=no&alerts=no`
   const {data} = useRequest(url);
   
   console.log(data)
