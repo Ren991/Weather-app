@@ -13,15 +13,15 @@ function Footer() {
       
       
       <li>
-        <a href="https://www.linkedin.com/in/renzo-beccari/" target="_blank">
+        <a href="https://www.linkedin.com/in/renzo-beccari/" target="_blank" rel="noreferrer">
           <img src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="Linkedin Logo" className="linkedin-icon"/></a>
       </li>
       <li>
-        <a href="#" target="_blank">
+        <a href="#" target="_blank" rel="noreferrer">
           <img src="https://www.svgrepo.com/show/341847/github.svg" alt="Facebook Logo" className="facebook-icon"/></a>
       </li>
       <li>
-        <a href="#" target="_blank">
+        <a href="#" target="_blank" rel="noreferrer">
           <img src="https://www.svgrepo.com/show/353812/google-gmail.svg" alt="Googleplus Logo" className="googleplus-icon"/></a>
       </li>
       
